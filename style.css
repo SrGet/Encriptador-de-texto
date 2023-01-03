@@ -62,7 +62,6 @@ body{
 
 }
 
-
 .aviso{
     margin: 0 90px 0 0px;
     font-size: 20px;
@@ -72,7 +71,6 @@ body{
     color: #7088d8;
     
 }
-
 
 .boton1,.boton2, .botonCopy, .botonClear{
     width: 33%;
@@ -127,13 +125,17 @@ body{
 
 .parteAbajo p{
     
-    display: inline-block;
+    display:block;
     font-size: 18px;
     font-style: italic;
     margin-top: 15px;
+    margin-left: 20px;
     
 }
 
+.linkIcono{
+    margin-left: 120px;
+}
 .swal-overlay {
     background-color: rgba(0, 0, 0, 0.2);
     
@@ -175,7 +177,6 @@ body{
         margin: 0;
     }
 
-
     body, .central, .parteArriba, .parteAbajo, .textoAreas{
         width: auto;
         text-align: center;
@@ -185,6 +186,10 @@ body{
     .candadoImg{
         padding-top: 20px;
         width: 20%;
+    }
+
+    .linkIcono{
+        margin-left: 10px;
     }
 }
 
